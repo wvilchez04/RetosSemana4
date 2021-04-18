@@ -14,18 +14,11 @@ html,body{
     text-align: center;
     margin-top: 20px;
 }
-@media (min-width: 768px) {
-    .navegacion{
-        display: flex;
-        justify-content: space-evenly;
-        gap: 2rem;
-    }   
-}
+
 .contenedor{
     padding: 50px;
     max-width: 120rem;
     width: 90%;
-    min-height: 1000px;
     margin: 0 auto;
     /* grid */
     display: grid;
