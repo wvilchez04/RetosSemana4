@@ -13,7 +13,7 @@
 
 .contenedor{
     max-width: 1000px;
-    min-height: 1000px;
+    min-height: 900px;
     margin: 0 auto;
     padding: 0 2rem;
     display: grid;
