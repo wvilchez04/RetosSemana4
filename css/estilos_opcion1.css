@@ -23,6 +23,12 @@
     grid-template-rows: repeat(5, minmax(auto, 1fr));
     grid-gap: 10px;
 }
+@media screen and (max-width: 768px){
+    .contenedor{
+        grid-template-columns: repeat(5, minmax(auto, 50px));
+        grid-template-rows: repeat(5, minmax(auto, 50px));
+    }   
+}
 .caja{
     font-size: 3rem;
     color: white;
